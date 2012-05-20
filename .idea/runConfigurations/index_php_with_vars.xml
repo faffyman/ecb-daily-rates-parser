@@ -1,0 +1,7 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="index.php with vars" type="PhpLocalRunConfigurationType" factoryName="PHP Console" editBeforeRun="true" path="$PROJECT_DIR$/index.php" scriptParameters="?from=gbp&amp;to=usd&amp;amount=100&amp;ajx=1">
+    <RunnerSettings RunnerId="PhpRunner" />
+    <ConfigurationWrapper RunnerId="PhpRunner" />
+    <method />
+  </configuration>
+</component>

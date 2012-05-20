@@ -1,0 +1,120 @@
+p.attrib {
+  font-size:0.846em;
+  color:#6D6F72;
+}
+
+table.dayrates {
+  width:100%;
+  margin: 10px auto;
+}
+
+table.dayrates thead th {
+  font-weight:bold;
+}
+
+table.dayrates thead th.curlabel {
+  width:50%;
+
+}
+
+
+table.dayrates tr th {
+  text-align:right;
+}
+
+th.rte,
+td.rte {
+  width:120px;
+  text-align:right
+}
+
+th.shift,
+td.shift, {
+  width:18px;
+  text-align:center
+}
+
+table.dayrates tbody th.curlabel {
+  text-align:right;
+  font-weight:normal;
+}
+
+table.dayrates tbody tr td,
+table.dayrates tbody tr th {
+  padding:6px;
+}
+
+table.dayrates tbody tr.over td {
+  background:#cfe9ff;
+}
+
+
+
+/**
+* converterwidget
+*/
+
+table#converterwidget {
+  width:420px;
+}
+
+table#converterwidget thead th {
+  background:#2384C6;
+  color:#ffffff;
+  font-weight:bold;
+  padding:3px;
+
+}
+
+table#converterwidget tbody th {
+  background:#cfcfcf;
+  font-weight:normal;
+  text-align:right;
+  padding:3px;
+  width:80px;
+}
+
+table#converterwidget tbody td {
+  width:250px;
+  text-align:right;
+  background:#efefef;
+  padding:3px;
+}
+
+table#converterwidget tbody td.short {
+  width:80px;
+  text-align:left;
+}
+
+
+.brdr {
+ -webkit-border-radius:8px;
+ -moz-border-radius:8px;
+ border-radius: 8px;
+}
+
+.brdr-tl {
+ -webkit-border-radius:  8px 0 0 0;
+ -moz-border-radius: 8px 0 0 0;
+ border-radius:  8px 0 0 0;
+}
+
+.brdr-tr {
+ -webkit-border-radius:  0 8px  0 0;
+ -moz-border-radius:  0 8px  0 0;
+ border-radius:  0 8px  0 0;
+}
+
+
+.brdr-bl {
+ -webkit-border-radius:  0 0 0 8px;
+ -moz-border-radius:  0 0 0 8px;
+ border-radius:  0 0 0 8px;
+}
+
+.brdr-br {
+ -webkit-border-radius: 0 0 8px 0;
+ -moz-border-radius:  0 0 8px 0;
+ border-radius:  0 0 8px 0;
+}
+

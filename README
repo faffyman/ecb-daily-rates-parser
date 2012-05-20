@@ -1,0 +1,45 @@
+ECB Rate Updater
+=================
+
+Read the daily rates from the EuropeanCentral Bank.
+Parse the XMl and store the rates as json in a local file.
+
+Also store the previous day's rates so that a daily comparison can be made.
+
+
+Files
+------
+
+### rate-update.php
+This is the class that grabs the data and stores it. Probably execute this via a cron job.
+
+### currencies.json
+simple local file storage of the ECB data. Used for simplicity, but if you
+have a database setup, use that instead.
+
+### currency-convertor.php
+This class is used in an example page, using the data to list all the rates against a single base currency
+and to display a simple web form offering the user the chance to convert a currency.
+
+### index.php
+This is the example page.
+
+
+### /tpl/*.tpl
+These are smarty templates that could be used/amended. Not used in this example code.
+
+
+Example Usage
+------------------
+
+// grabbing the latest data is as simple as:-
+$oRU = new RateUpdate();
+$oRU->getNewRates();
+
+
+
+Database
+---------
+
+This class doesn't use any database integration at all. However it's just a matter of
+adding your own storage function and choosing how long to store the numbers for.
